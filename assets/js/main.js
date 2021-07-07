@@ -6,6 +6,11 @@ $(function() {
     
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
+
+        setTimeout(() => {
+            console.log("Those fools forgot to shut off my source and email access! If you are looking for a software engineer in Los Santos, shoot me a message at Cody [a-la] roarlab.net ");
+        }, 1500);
+        
     });
     
     
